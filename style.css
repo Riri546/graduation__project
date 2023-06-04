@@ -8,17 +8,38 @@ a{
 }
 
 .header{
+    padding-top: 11px;
+    padding-bottom: 7px;
     background: #C1D7F7;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 2px;
+}
+
+.img__header{
+    height: 60px;
 }
 
 .header__link{
     font-family: 'Jua';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 40px;
     line-height: 30px;
     letter-spacing: 0.15em;
     color: #000000;
 }
+
+/* .top{
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+
+.img__top{
+    padding-top: 34px;
+    position: absolute;
+    width: 730px;
+    height: 216.63px;
+    left: 38px;
+    top: 24px;
+    
+} */
