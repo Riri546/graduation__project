@@ -91,6 +91,7 @@ a{
 }
 
 .subtitle{
+    display: block;
     padding: 1px 301px 44px 500px;
     font-family: 'Jua';
     font-style: normal;
@@ -99,5 +100,10 @@ a{
     line-height: 30px;
     letter-spacing: 0.15em;
     color: #000000;
+}
+
+.contacts{
+    padding: 39px 25px 21px 358px;
+    width: 5%;
 }
     
