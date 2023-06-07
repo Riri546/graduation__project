@@ -11,7 +11,7 @@ a{
     padding-top: 11px;
     padding: 7px;
     background: #C1D7F7;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px;
     border-radius: 2px;
 }
 
@@ -35,6 +35,9 @@ a{
 
 .top{
     padding: 24px 38px 24px 38px;
+    background: #EDF3FC;
+    border: 1px;
+    border-radius: 2px;
 }
 
 .img__top{
@@ -50,6 +53,7 @@ a{
     background: linear-gradient(to top, #d9d9d90c, transparent); */
     background: #d9d9d990;
     mix-blend-mode: screen;
+    /* Не получается сделать нормальный отступ и текст на картинке */
 }
 
 .title{
@@ -57,6 +61,24 @@ a{
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    /* color: #000; */
+}
+
+.body{
+    /* margin-top: 40px; */
+    padding: 65px 36px 22px 38px;;
+    background: #EDF3FC;
+    border: 1px;
+    border-radius: 2px;
+}
+
+.text{
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
     line-height: 30px;
     letter-spacing: 0.15em;
     color: #424346;
