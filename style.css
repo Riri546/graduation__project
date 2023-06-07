@@ -83,4 +83,21 @@ a{
     letter-spacing: 0.15em;
     color: #424346;
 }
+
+.footer{
+    background: #EDF3FC;
+    border: 1px;
+    border-radius: 2px;
+}
+
+.subtitle{
+    padding: 1px 301px 44px 500px;
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    color: #000000;
+}
     
