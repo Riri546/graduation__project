@@ -128,7 +128,7 @@ body{
 
 .album{
     display: grid;
-    grid-column: 100px 30% auto;
+    grid-template-columns:  100px 100px 100px;
 }
     
 .item{
