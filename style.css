@@ -17,7 +17,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 274px;
+    gap: 550px;
     background: #C1D7F7;
 }
 
@@ -54,48 +54,39 @@ a{
 }
 
 .top{
-    padding: 24px 38px 24px 38px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
     background: #EDF3FC;
-    border: 1px;
-    border-radius: 2px;
 }
 
 .img__top{
-    width: 100%;
-}
-
-.slog{
-    margin: -148px 370px 25px 10px; 
-    padding: 8px 15px 15px 15px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background: linear-gradient(to top, #d9d9d90c, transparent); */
-    background: #d9d9d990;
-    mix-blend-mode: screen;
-    /* Не получается сделать нормальный отступ и текст на картинке */
+    margin-top: 85px;
+    margin-bottom: 89px;
+    width: 55%;
 }
 
 .title{
+    padding-top: 225px;
+    width: 515px;
+    font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 30px;
     letter-spacing: 0.15em;
-    /* color: #000; */
-}
-
-.body{
-    /* margin-top: 40px; */
-    padding: 65px 36px 22px 38px;;
-    background: #EDF3FC;
-    border: 1px;
-    border-radius: 2px;
+    color: #424346;
 }
 
 .text{
+    padding-top: 31px;
+    padding-bottom: 305px;
+    width: 510px;
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 30px;
     letter-spacing: 0.15em;
     color: #424346;
@@ -103,23 +94,34 @@ a{
 
 .footer{
     background: #EDF3FC;
-    border: 1px;
-    border-radius: 2px;
 }
 
 .subtitle{
-    display: block;
-    padding: 1px 301px 44px 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 12px;
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 30px;
     letter-spacing: 0.15em;
     color: #000000;
 }
 
-.contacts{
-    padding: 39px 25px 21px 358px;
-    width: 5%;
+.contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    padding-top: 18px;
+    padding-bottom: 21px;
+} 
+
+.contact__img{
+    width: 3%;
 }
     
