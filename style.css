@@ -127,11 +127,11 @@ body{
 }
 
 .album{
+    padding-top: 112px;
+    padding-bottom: 105px;
     display: grid;
-    grid-template-columns:  432px 432px 432px;
-}
-    
-.item{
-    border: 1px solid #000;
-    height: 200px;
+    grid-template-columns: 432px 432px 432px;
+    grid-template-rows: 294px;
+    justify-content: center;
+    gap: 87px;
 }
