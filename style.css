@@ -7,27 +7,36 @@ a{
     text-decoration: none;
 }
 
+ body{
+    font-family: 'gilroy-extrabold',sans-serif;
+ }
+
 .header{
-    padding-top: 11px;
-    padding: 7px;
     background: #C1D7F7;
-    border: 1px;
-    border-radius: 2px;
 }
 
 .img__header{
-    padding: 10px 50px 8px 350px;
-    width: 5%;
-    object-fit: cover;
-    float: left;
+    padding-top: 14px;
+    padding-bottom: 17px;
+}
+
+.header__link1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    color: #154EA0;
 }
 
 .header__link{
-    padding: 11px 35px 7px 0px;
-    font-family: 'Jua';
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 30px;
     letter-spacing: 0.15em;
     color: #000000;
@@ -57,8 +66,6 @@ a{
 }
 
 .title{
-    font-family: 'Jua';
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
@@ -75,7 +82,6 @@ a{
 }
 
 .text{
-    font-family: 'Jua';
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
@@ -93,7 +99,6 @@ a{
 .subtitle{
     display: block;
     padding: 1px 301px 44px 500px;
-    font-family: 'Jua';
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
