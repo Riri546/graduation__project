@@ -125,4 +125,13 @@ body{
 .contact__img{
     width: 3%;
 }
+
+.album{
+    display: grid;
+    grid-column: 100px 30% auto;
+}
     
+.item{
+    border: 1px solid #000;
+    height: 200px;
+}
