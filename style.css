@@ -17,7 +17,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 274px;
+    /* gap: 274px; */
     background: #C1D7F7;
 }
 
@@ -29,6 +29,7 @@ body{
 .img__header{
     padding-top: 14px;
     padding-bottom: 17px;
+    padding-right: 450px;
 }
 
 .header__link1{
