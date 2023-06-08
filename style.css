@@ -12,7 +12,18 @@ a{
  }
 
 .header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 274px;
     background: #C1D7F7;
+}
+
+.head{
+    display: flex;
+    gap: 43px;
 }
 
 .img__header{
