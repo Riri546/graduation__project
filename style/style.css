@@ -5,7 +5,7 @@
 
 .header .head {
   border: 1px solid #89725B;
-  margin: 60px 100px 0px 100px;
+  margin: 50px 100px 0px 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +24,7 @@
 }
 .header .head__text {
   padding-top: 49px;
-  padding-bottom: 108px;
+  padding-bottom: 65px;
   color: #89725B;
   font-size: 20px;
   font-style: normal;
@@ -33,12 +33,22 @@
   letter-spacing: 4px;
 }
 .header__link {
+  border-radius: 100%;
+  padding: 38px;
+  border: 1px solid #89725B;
   color: #89725B;
-  font-family: Cormorant SC;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  background: #F4F2EF;
+  transition: all 0.4s;
+}
+.header__link:hover {
+  color: #F4F2EF;
+  background: #89725B;
+  border-color: #F4F2EF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 * {
@@ -49,4 +59,8 @@
 body {
   font-family: "Cormorant SC", serif;
   background: #F4F2EF;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

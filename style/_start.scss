@@ -2,7 +2,7 @@
 
     .head {
         border: 1px solid $colorSelectSite;
-        margin: 60px 100px 0px 100px;
+        margin: 50px 100px 0px 100px;
         @extend %center;
         display: flex;
         flex-direction: column;
@@ -24,7 +24,7 @@
 
         &__text {
             padding-top: 49px;
-            padding-bottom: 108px;
+            padding-bottom: 65px;
             color: $colorSelectSite;
             font-size: 20px;
             font-style: normal;
@@ -34,16 +34,25 @@
         }
     }
 
-    &__botton {}
-
     &__link {
-        color: #89725B;
-        font-family: Cormorant SC;
+        border-radius: 100%;
+        padding: 38px;
+        border: 1px solid $colorSelectSite;
+        color: $colorSelectSite;
         font-size: 48px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: $weightFontBold;
         line-height: normal;
+        background: $colorLightSelectSite;
+        transition: all 0.4s;
     }
 
+    &__link:hover {
+        color: #F4F2EF;
+        background: #89725B;
+        border-color: #F4F2EF;
+        box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    }
 
 }
