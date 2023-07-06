@@ -1,9 +1,5 @@
-.top {
-  background: #F4F2EF;
-}
-.top .header__title {
+.header__title {
   color: #89725B;
-  font-family: Cormorant SC;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -14,4 +10,13 @@
 * {
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: "Cormorant SC", serif;
+}
+
+.top {
+  background: #F4F2EF;
+  width: 100vh;
 }/*# sourceMappingURL=style.css.map */
