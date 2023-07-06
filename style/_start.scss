@@ -54,31 +54,33 @@
  * animation scale-in-ver-center
  * ----------------------------------------
  */
- @-webkit-keyframes scale-in-ver-center {
+@-webkit-keyframes scale-in-ver-center {
     0% {
-      -webkit-transform: scaleY(0);
-              transform: scaleY(0);
-      opacity: 1;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        opacity: 1;
     }
+
     100% {
-      -webkit-transform: scaleY(1);
-              transform: scaleY(1);
-      opacity: 1;
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        opacity: 1;
     }
-  }
-  @keyframes scale-in-ver-center {
+}
+
+@keyframes scale-in-ver-center {
     0% {
-      -webkit-transform: scaleY(0);
-              transform: scaleY(0);
-      opacity: 1;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        opacity: 1;
     }
+
     100% {
-      -webkit-transform: scaleY(1);
-              transform: scaleY(1);
-      opacity: 1;
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        opacity: 1;
     }
-  }
-  
+}
 
 .header {
 
@@ -103,11 +105,10 @@
             font-weight: $weightFontBold;
             line-height: 30px;
             letter-spacing: 12.8px;
-
         }
 
         &__text {
-            animation: tracking-in-contract 6s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-contract 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
             padding-top: 49px;
             padding-bottom: 65px;
             color: $colorSelectSite;
@@ -117,11 +118,10 @@
             line-height: normal;
             letter-spacing: 4px;
         }
-
     }
 
-    &__button{
-        animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4s both
+    &__button {
+        animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both
     }
 
     &__link {
@@ -144,5 +144,4 @@
         box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
 
     }
-
 }

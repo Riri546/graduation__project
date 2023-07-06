@@ -76,7 +76,7 @@
   letter-spacing: 12.8px;
 }
 .header .head__text {
-  animation: tracking-in-contract 6s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 4s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   padding-top: 49px;
   padding-bottom: 65px;
   color: #89725B;
@@ -87,7 +87,7 @@
   letter-spacing: 4px;
 }
 .header__button {
-  animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4s both;
+  animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
 }
 .header__link {
   border-radius: 100%;
