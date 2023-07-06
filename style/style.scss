@@ -2,16 +2,13 @@
 @import 'position';
 @import 'start';
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Cormorant SC', serif;
+    background: $colorLightSelectSite;
 }
 
-.top {
-    background: $colorLightSelectSite;
-    width: 100vh;
-}

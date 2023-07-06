@@ -1,12 +1,11 @@
-
-
-    .header {
-        &__title {
-            color: #89725B;
-            font-size: 64px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 30px;
-            letter-spacing: 12.8px;
-        }
+.header {
+    &__title {
+        color: $colorSelectSite;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 12.8px;
     }
+}
+
