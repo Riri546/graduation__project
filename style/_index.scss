@@ -74,7 +74,9 @@
         flex-direction: column;
         gap: 13px;
     }
+}
 
+.button {
     &__button {
         display: flex;
         flex-direction: row;
@@ -96,6 +98,4 @@
             letter-spacing: 3.6px;
         }
     }
-
-
 }
