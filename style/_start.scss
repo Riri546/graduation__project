@@ -1,9 +1,9 @@
 .header {
     &__title {
         color: $colorSelectSite;
-        font-size: 64px;
+        font-size: $sizeFontMax;
         font-style: normal;
-        font-weight: 700;
+        font-weight: $weightFontBold;
         line-height: 30px;
         letter-spacing: 12.8px;
     }
