@@ -1,10 +1,36 @@
+.header {
+  padding-left: calc(50% - 700px);
+  padding-right: calc(50% - 700px);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__logo {
+  padding-top: 78px;
+  padding-bottom: 35px;
+}
 .header__title {
+  padding-bottom: 49px;
+  width: 164px;
+  border-bottom: 4px solid #89725B;
   color: #89725B;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 12.8px;
+}
+.header__text {
+  padding-top: 49px;
+  color: #89725B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 4px;
 }
 
 * {
