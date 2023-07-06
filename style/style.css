@@ -1,18 +1,19 @@
-.header {
+.header .head {
   padding-left: calc(50% - 700px);
   padding-right: calc(50% - 700px);
 }
 
-.header {
+.header .head {
+  border: 1px solid #89725B;
+  margin: 60px 100px 0px 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.header__logo {
-  padding-top: 78px;
+.header .head__logo {
   padding-bottom: 35px;
 }
-.header__title {
+.header .head__title {
   padding-bottom: 49px;
   color: #89725B;
   font-size: 64px;
@@ -21,8 +22,9 @@
   line-height: 30px;
   letter-spacing: 12.8px;
 }
-.header__text {
+.header .head__text {
   padding-top: 49px;
+  padding-bottom: 108px;
   color: #89725B;
   font-size: 20px;
   font-style: normal;
