@@ -64,7 +64,6 @@
 }
 .header .head__logo {
   max-width: 530px;
-  padding-bottom: 35px;
 }
 .header .head__title {
   animation: tracking-in-contract 6s cubic-bezier(0.215, 0.61, 0.355, 1) both;
