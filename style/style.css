@@ -75,6 +75,11 @@
   fill: #846343;
 }
 
+.slog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .slog__title {
   padding-top: 217px;
   padding-bottom: 30px;
@@ -93,6 +98,10 @@
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 3.6px;
+}
+.slog__img {
+  padding-top: 42px;
+  padding-bottom: 55px;
 }
 
 * {

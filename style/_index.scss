@@ -21,6 +21,9 @@
 
 .slog {
     @extend %center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
     &__title {
         padding-top: 217px;
@@ -41,5 +44,10 @@
         font-weight: $weightFontRegular;
         line-height: 30px;
         letter-spacing: 3.6px;
+    }
+
+    &__img {
+        padding-top: 42px;
+        padding-bottom: 55px;
     }
 }
