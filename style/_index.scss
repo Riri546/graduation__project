@@ -1,13 +1,45 @@
 .headeri {
+    @extend %center;
+    @extend %flex__space_between;
     background: $colorSelectSite;
+    padding-top: 23px;
+    padding-bottom: 30px;
 
     &__logo {
-        color: #F4F2EF;
+        color: $colorLightSelectSite;
         text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        font-family: Cormorant SC;
         font-size: 48px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: $weightFontBold;
         line-height: normal;
+    }
+
+    &__menu:hover {
+        fill: #846343;
+    }
+}
+
+.slog {
+    @extend %center;
+
+    &__title {
+        padding-top: 217px;
+        padding-bottom: 30px;
+        width: 398px;
+        color: $colorText;
+        font-size: $sizeTitle;
+        font-style: normal;
+        font-weight: $weightFontBold;
+        line-height: 50px;
+    }
+
+    &__text {
+        width: 398px;
+        color: $colorText;
+        font-size: $sizeText;
+        font-style: normal;
+        font-weight: $weightFontRegular;
+        line-height: 30px;
+        letter-spacing: 3.6px;
     }
 }

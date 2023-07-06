@@ -2,3 +2,10 @@
     padding-left: calc(50% - $widthSite/2);
     padding-right: calc(50% - $widthSite/2);
 }
+
+%flex__space_between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
