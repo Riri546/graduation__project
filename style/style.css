@@ -32,6 +32,14 @@
   line-height: normal;
   letter-spacing: 4px;
 }
+.header__link {
+  color: #89725B;
+  font-family: Cormorant SC;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
 * {
   padding: 0;
