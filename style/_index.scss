@@ -51,3 +51,27 @@
         padding-bottom: 55px;
     }
 }
+
+.content {
+    @extend %center;
+    display: grid;
+    grid-template-columns: repeat(3, 432px);
+    gap: 35px;
+
+    &__text {
+        text-align: center;
+        padding-bottom: 58px;
+        color: $colorText;
+        font-size: $sizeText;
+        font-style: normal;
+        font-weight: $weightFontBold;
+        line-height: $lineHeight;
+        letter-spacing: 3.6px;
+    }
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    }
+}

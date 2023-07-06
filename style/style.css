@@ -1,4 +1,4 @@
-.slog, .headeri, .header .head {
+.content, .slog, .headeri, .header .head {
   padding-left: calc(50% - 700px);
   padding-right: calc(50% - 700px);
 }
@@ -102,6 +102,27 @@
 .slog__img {
   padding-top: 42px;
   padding-bottom: 55px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 432px);
+  gap: 35px;
+}
+.content__text {
+  text-align: center;
+  padding-bottom: 58px;
+  color: #846343;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 3.6px;
+}
+.content__text {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
 }
 
 * {
