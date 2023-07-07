@@ -267,8 +267,10 @@
 }
 
 .form {
+  display: flex;
+  flex-direction: column;
   padding-top: 100px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 .form__title {
   color: #C3B09D;
@@ -283,6 +285,28 @@
   height: 74px;
   background: #C3B09D;
   border: none;
+}
+.form__button {
+  margin-top: 15px;
+  width: 254px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  color: #846343;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  border: none;
+  background: rgba(195, 176, 157, 0.41);
+  transition: all 0.4s;
+}
+.form__button:hover {
+  color: #F4F2EF;
+  background: #C3B09D;
+}
+.form__button:active {
+  color: #846343;
+  background: rgba(195, 176, 157, 0.41);
 }
 
 * {

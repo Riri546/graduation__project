@@ -1,8 +1,9 @@
 .form {
     @extend %center;
-    // @extend %flex__column;
+    display: flex;
+    flex-direction: column;
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 
     &__title {
         color: $colorSite;
@@ -18,5 +19,30 @@
         height: 74px;
         background: #C3B09D;
         border: none;
+    }
+
+    &__button {
+        margin-top: 15px;
+        width: 254px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        color: $colorText;
+        font-size: $sizeText;
+        font-style: normal;
+        font-weight: $weightFontMedium;
+        line-height: $lineHeight;
+        border: none;
+        background: rgba(195, 176, 157, 0.41);
+        transition: all 0.4s;
+    }
+
+    &__button:hover {
+        color: #F4F2EF;
+        background: $colorSite;
+    }
+
+    &__button:active {
+        color: $colorText;
+        background: rgba(195, 176, 157, 0.41);
     }
 }
