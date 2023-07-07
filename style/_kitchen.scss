@@ -1,0 +1,11 @@
+.subheader {
+    background: rgba(195, 176, 157, 0.41);
+
+    &__title {
+        color: $colorText;
+        font-size: $sizeTitle;
+        font-style: normal;
+        font-weight: $weightFontBold;
+        line-height: 50px;
+    }
+}

@@ -242,6 +242,17 @@
   line-height: 30px;
 }
 
+.subheader {
+  background: rgba(195, 176, 157, 0.41);
+}
+.subheader__title {
+  color: #846343;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
 * {
   padding: 0;
   margin: 0;
