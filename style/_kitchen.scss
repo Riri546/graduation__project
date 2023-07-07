@@ -16,4 +16,13 @@
 .content__product{
     padding-top: 56px;
     padding-bottom: 65px;
+    
+}
+
+.el{
+    transition: 1s;
+}
+
+.el:hover {
+    transform: scale(1.2);
 }

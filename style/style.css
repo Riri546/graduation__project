@@ -260,6 +260,14 @@
   padding-bottom: 65px;
 }
 
+.el {
+  transition: 1s;
+}
+
+.el:hover {
+  transform: scale(1.2);
+}
+
 * {
   padding: 0;
   margin: 0;
