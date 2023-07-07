@@ -1,4 +1,4 @@
-.footer, .button, .content, .slog, .headeri, .header .head {
+.subheader, .footer, .button, .content, .slog, .headeri, .header .head {
   padding-left: calc(50% - 700px);
   padding-right: calc(50% - 700px);
 }
@@ -243,6 +243,8 @@
 }
 
 .subheader {
+  padding-top: 28px;
+  padding-bottom: 28px;
   background: rgba(195, 176, 157, 0.41);
 }
 .subheader__title {
@@ -251,6 +253,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: 50px;
+}
+
+.content__product {
+  padding-top: 56px;
+  padding-bottom: 65px;
 }
 
 * {

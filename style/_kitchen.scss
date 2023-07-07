@@ -1,4 +1,7 @@
 .subheader {
+    @extend %center;
+    padding-top: 28px;
+    padding-bottom: 28px;
     background: rgba(195, 176, 157, 0.41);
 
     &__title {
@@ -8,4 +11,9 @@
         font-weight: $weightFontBold;
         line-height: 50px;
     }
+}
+
+.content__product{
+    padding-top: 56px;
+    padding-bottom: 65px;
 }
