@@ -259,12 +259,10 @@
   padding-top: 56px;
   padding-bottom: 65px;
 }
-
-.el {
+.content__product .el {
   transition: 1s;
 }
-
-.el:hover {
+.content__product .el:hover {
   transform: scale(1.2);
 }
 
