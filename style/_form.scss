@@ -1,0 +1,22 @@
+.form {
+    @extend %center;
+    // @extend %flex__column;
+    padding-top: 100px;
+    padding-bottom: 150px;
+
+    &__title {
+        color: $colorSite;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: $weightFontMedium;
+        line-height: $lineHeight;
+    }
+
+    &__input {
+        margin-bottom: 32px;
+        width: 516px;
+        height: 74px;
+        background: #C3B09D;
+        border: none;
+    }
+}

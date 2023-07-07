@@ -1,4 +1,4 @@
-.subheader, .footer, .button, .content, .slog, .headeri, .header .head {
+.form, .subheader, .footer, .button, .content, .slog, .headeri, .header .head {
   padding-left: calc(50% - 700px);
   padding-right: calc(50% - 700px);
 }
@@ -264,6 +264,25 @@
 }
 .content__product .el:hover {
   transform: scale(1.2);
+}
+
+.form {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.form__title {
+  color: #C3B09D;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.form__input {
+  margin-bottom: 32px;
+  width: 516px;
+  height: 74px;
+  background: #C3B09D;
+  border: none;
 }
 
 * {
