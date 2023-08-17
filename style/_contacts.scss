@@ -1,5 +1,8 @@
 .contacts {
     @extend %center;
+    padding-top: 100px;
+    padding-bottom: 102px;
+
     &__text {
         color: #846343;
         font-family: Cormorant SC;

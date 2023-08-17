@@ -358,6 +358,10 @@
   padding-left: 50px;
 }
 
+.contacts {
+  padding-top: 100px;
+  padding-bottom: 102px;
+}
 .contacts__text {
   color: #846343;
   font-family: Cormorant SC;
