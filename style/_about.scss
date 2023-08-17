@@ -6,22 +6,18 @@
 
     &__title {
         padding-bottom: 28px;
-        color: #846343;
+        color: $colorText;
         text-align: center;
-        font-family: Cormorant SC;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
+        font-size: $sizeTitle;
+        font-weight: $weightFontBold;
         line-height: 50px;
         max-width: 1390px;
     }
 
     &__text {
-        color: #846343;
-        font-family: Cormorant SC;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 300;
+        color: $colorText;
+        font-size: $sizeText;
+        font-weight: $weightFontLight;
         line-height: 30px;
         letter-spacing: 3.6px;
         max-width: 1390px;
