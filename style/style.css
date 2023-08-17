@@ -1,4 +1,4 @@
-.form, .subheader, .footer, .button, .content, .slog, .headeri, .header .head {
+.about, .form, .subheader, .footer, .button, .content, .slog, .headeri, .header .head {
   padding-left: calc(50% - 700px);
   padding-right: calc(50% - 700px);
 }
@@ -330,6 +330,36 @@
 .form__button:active {
   color: #846343;
   background: rgba(195, 176, 157, 0.41);
+}
+
+.about {
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+.about__title {
+  padding-bottom: 28px;
+  color: #846343;
+  text-align: center;
+  font-family: Cormorant SC;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  max-width: 1390px;
+}
+.about__text {
+  color: #846343;
+  font-family: Cormorant SC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 3.6px;
+  max-width: 1390px;
+}
+.about__order {
+  padding-top: 66px;
+  padding-left: 50px;
 }
 
 * {
