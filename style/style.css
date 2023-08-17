@@ -1,4 +1,4 @@
-.about, .form, .subheader, .footer, .button, .content, .slog, .headeri, .header .head {
+.contacts, .about, .form, .subheader, .footer, .button, .content, .slog, .headeri, .header .head {
   padding-left: calc(50% - 700px);
   padding-right: calc(50% - 700px);
 }
@@ -356,6 +356,25 @@
 .about__order {
   padding-top: 66px;
   padding-left: 50px;
+}
+
+.contacts__text {
+  color: #846343;
+  font-family: Cormorant SC;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 50px;
+}
+.contacts__title {
+  color: #846343;
+  text-align: center;
+  font-family: Cormorant SC;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  /* 156.25% */
 }
 
 * {
