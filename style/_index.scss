@@ -14,8 +14,6 @@
         line-height: normal;
     }
 
-
-
     #burger-menu {
         cursor: pointer;
         height: 10px;
@@ -29,7 +27,7 @@
     #burger-menu span,
     #burger-menu span:before,
     #burger-menu span:after {
-        background: #fff;
+        background: $colorLightSelectSite;
         display: block;
         height: 4px;
         opacity: 1;
@@ -45,31 +43,51 @@
     #burger-menu span {
         right: 0px;
         top: 13px;
-        width: 27px;
+        width: 70px;
+        display: block;
+        transition: 0.7s;
+    }
+
+    #burger-menu span:hover {
+        background-color: $colorSelectSite;
     }
 
     #burger-menu span:before {
         left: 0px;
-        top: -10px;
-        width: 16px;
+        top: -20px;
+        width: 70px;
+        display: block;
+        transition: 0.7s;
+    }
+
+    #burger-menu span:hover::before{
+        background-color: $colorSelectSite;
     }
 
     #burger-menu span:after {
         left: 0px;
-        top: 10px;
-        width: 20px;
+        top: 20px;
+        width: 70px;
+        display: block;
+        transition: 0.7s;
+    }
+
+    #burger-menu span:hover::after{
+        background-color: $colorSelectSite;
     }
 
     #burger-menu.close span {
         transform: rotate(-45deg);
         top: 13px;
-        width: 27px;
+        width: 70px;
+        transition: 0.7s;
     }
 
     #burger-menu.close span:before {
         top: 0px;
         transform: rotate(90deg);
-        width: 27px;
+        width: 70px;
+        transition: 0.7s;
     }
 
     #burger-menu.close span:after {
@@ -78,44 +96,67 @@
         transform: rotate(90deg);
         opacity: 0;
         width: 0;
+        transition: 0.7s;
     }
 
     #menu {
-        z-index: 1;
-        min-width: 100%;
-        min-height: 100%;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        margin-left: 71%;
+        z-index: 2;
+        min-width: 370px;
+        min-height: 420px;
         position: fixed;
-        top: 0;
-        height: 0;
+        top: 112px;
         visibility: hidden;
         opacity: 0;
-        text-align: center;
+        text-align: left;
         padding-top: 20px;
         transition: all 0.3s ease-in-out;
-
     }
 
     #menu.overlay {
         visibility: visible;
         opacity: 1;
-        padding-top: 100px;
-        background: rgba(0, 0, 0, 0.5);
+        padding-bottom: 30px;
+        background: $colorLightSelectSite;
     }
 
     #menu li {
+        padding-top: 17px;
+        color: $colorSelectSite;
+        font-size: 32px;
+        font-weight: $weightFontBold;
+        line-height: 50px;
         list-style: none;
     }
 
     #menu a {
-        color: #fff;
-        display: block;
-        font-size: 32px;
-        margin-bottom: 30px;
-        text-decoration: none;
+        color: $colorText;
+        font-size: 24px;
+        font-weight: $weightFontBold;
+        line-height: $lineHeight;
+    }
+
+    #menu a:hover{
+        color: $colorSite;
+    }
+
+    .menu__bord {
+        margin-left: 55px;
+        padding-bottom: 17px;
+        padding-left: 0px;
+        border-bottom: 1px solid $colorSelectSite;
+        max-width: 260px;
+    }
+
+    .menu__center {
+        text-align: center;
+    }
+
+    .menu_psition {
+        padding-left: 55px;
     }
 }
-
-
 
 .slog {
     @extend %center;
