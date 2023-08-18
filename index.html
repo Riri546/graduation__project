@@ -22,14 +22,19 @@
             <a href="index.html" class="headeri__logo">Prodtive</a>
             <div id="burger-menu">
                 <span></span>
-              </div>
-              
-              <div id="menu">
-                  <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                  </ul>
-              </div>
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <li>Меню</li>
+                    <li ><a href="kitchen.html">Кухни</a></li>
+                    <li><a href="wardrobe.html">Шкафы и гардеробные</a></li>
+                    <li><a href="dresser.html">Комоды и столы</a></li>
+                    <li><a href="form.html">Оставить заявку</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
             <!-- <svg width="71" height="44" viewBox="0 0 71 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path class="headeri__menu"
                     d="M0 44V38.8539H71V44H0ZM0 24.4104V19.2643H71V24.4104H0ZM0 5.14608V0H71V5.14608H0Z"
@@ -101,6 +106,16 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        var burgerMenu = document.getElementById('burger-menu');
+        var overlay = document.getElementById('menu');
+        burgerMenu.addEventListener('click', function () {
+            this.classList.toggle("close");
+            overlay.classList.toggle("overlay");
+        });
+
+    </script>
 </body>
 
 </html>

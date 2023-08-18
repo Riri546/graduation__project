@@ -121,11 +121,89 @@
   font-weight: 700;
   line-height: normal;
 }
-.headeri__menu {
-  transition: 0.7s;
+.headeri #burger-menu {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin-right: 50px;
+  overflow: visible;
+  position: relative;
+  z-index: 2;
 }
-.headeri__menu:hover {
-  fill: #846343;
+.headeri #burger-menu span,
+.headeri #burger-menu span:before,
+.headeri #burger-menu span:after {
+  background: #fff;
+  display: block;
+  height: 4px;
+  opacity: 1;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+}
+.headeri #burger-menu span:before,
+.headeri #burger-menu span:after {
+  content: "";
+}
+.headeri #burger-menu span {
+  right: 0px;
+  top: 13px;
+  width: 27px;
+}
+.headeri #burger-menu span:before {
+  left: 0px;
+  top: -10px;
+  width: 16px;
+}
+.headeri #burger-menu span:after {
+  left: 0px;
+  top: 10px;
+  width: 20px;
+}
+.headeri #burger-menu.close span {
+  transform: rotate(-45deg);
+  top: 13px;
+  width: 27px;
+}
+.headeri #burger-menu.close span:before {
+  top: 0px;
+  transform: rotate(90deg);
+  width: 27px;
+}
+.headeri #burger-menu.close span:after {
+  top: 0px;
+  left: 0;
+  transform: rotate(90deg);
+  opacity: 0;
+  width: 0;
+}
+.headeri #menu {
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  padding-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.headeri #menu.overlay {
+  visibility: visible;
+  opacity: 1;
+  padding-top: 100px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.headeri #menu li {
+  list-style: none;
+}
+.headeri #menu a {
+  color: #fff;
+  display: block;
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-decoration: none;
 }
 
 .slog {
