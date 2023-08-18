@@ -163,25 +163,23 @@
         gap: 15px;
     }
 
-
-
     &__link {
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        
-        .link__background {
-            transition: 0.7s;
-        }
+    }
 
-        .link__color {
-            transition: 0.7s;
-        }
+    .link__background {
+        transition: 0.7s;
+    }
 
-        svg:hover .link__background {
-            fill: #C3B09D;
-        }
+    .link__color {
+        transition: 0.7s;
+    }
 
-        svg:hover .link__color {
-            fill: #F4F2EF;
-        }
+    svg:hover .link__background {
+        fill: #C3B09D;
+    }
+
+    svg:hover .link__color {
+        fill: #F4F2EF;
     }
 }
