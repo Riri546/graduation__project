@@ -728,6 +728,16 @@
   padding-left: 50px;
 }
 
+@media (max-width: 1280px) {
+  .subheader {
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+  }
+  .about {
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+  }
+}
 /* Стили для планшета */
 /* Стили для среднего телефона */
 .contacts {
