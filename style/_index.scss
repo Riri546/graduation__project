@@ -511,9 +511,109 @@
             width: 40px;
         }
     }
-
 }
 
 /* Стили для среднего телефона */
-//  Для страницы registration
-@media (max-width: 767px) {}
+//  Для страницы index
+@media (max-width: 767px) {
+    .headeri {
+        padding-left: calc(50% - 360px/2);
+        padding-right: calc(50% - 360px/2);
+
+        #menu {
+            margin-left: 36%;
+            padding-bottom: 0px;
+        }
+
+        #menu.overlay {
+            padding-bottom: 0px;
+        }
+
+        #menu li {
+            padding-top: 15px;
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        #burger-menu span {
+            width: 50px;
+        }
+
+        #burger-menu span::after {
+            width: 50px;
+        }
+
+        #burger-menu span:before {
+            width: 50px;
+        }
+
+        &__logo {
+            font-size: 40px;
+        }
+    }
+
+    .slog {
+        padding-left: calc(50% - 360px/2);
+        padding-right: calc(50% - 360px/2);
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+
+        &__title {
+            width: auto;
+            text-align: center;
+            padding-top: 42px;
+            padding-bottom: 20px;
+            font-size: 30px;
+        }
+
+        &__text {
+            width: auto;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        &__img_photo {
+            display: none;
+            max-width: 300px;
+        }
+    }
+
+    .content {
+        padding-left: calc(50% - 360px/2);
+        padding-right: calc(50% - 360px/2);
+        grid-template-columns: repeat(1, 220px);
+        gap: 15px;
+
+        &__img {
+            max-width: 220px;
+        }
+
+        &__text {
+            font-size: 15px;
+        }
+    }
+
+    .button {
+        &__border {
+            width: 180px;
+        }
+
+        &__link {
+            font-size: 15px;
+        }
+    }
+
+    .footer {
+        padding-left: calc(50% - 360px/2);
+        padding-right: calc(50% - 360px/2);
+
+        &__text {
+            font-size: 15px;
+        }
+
+        &__link_ico{
+            width: 40px;
+        }
+    }
+}
