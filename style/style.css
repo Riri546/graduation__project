@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .contacts, .about, .form, .subheader, .footer, .button, .content, .slog, .headeri, .header .head {
   padding-left: calc(50% - 700px);
   padding-right: calc(50% - 700px);
@@ -382,6 +383,18 @@
   fill: #F4F2EF;
 }
 
+/* Стили для планшета */
+@media (max-width: 1024px) {
+  .slog__img_photo {
+    max-width: 500px;
+  }
+}
+/* Стили для среднего телефона */
+@media (max-width: 767px) {
+  .slog__img_photo {
+    max-width: 500px;
+  }
+}
 .subheader {
   padding-top: 28px;
   padding-bottom: 28px;
