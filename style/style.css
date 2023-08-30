@@ -384,8 +384,51 @@
 }
 
 @media (max-width: 1280px) {
+  .headeri {
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+  }
+  .headeri__logo {
+    font-size: 46px;
+  }
+  .slog {
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+  }
+  .slog__title {
+    padding-top: 50px;
+    font-size: 36px;
+  }
+  .slog__text {
+    font-size: 26px;
+  }
   .slog__img_photo {
     max-width: 500px;
+  }
+  .content {
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+    grid-template-columns: repeat(3, 300px);
+    gap: 30px;
+  }
+  .content__img {
+    max-width: 300px;
+  }
+  .content__text {
+    font-size: 20px;
+  }
+  .button__border {
+    width: 230px;
+  }
+  .button__link {
+    font-size: 20px;
+  }
+  .footer {
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+  }
+  .footer__text {
+    font-size: 20px;
   }
 }
 /* Стили для планшета */
