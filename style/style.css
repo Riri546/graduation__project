@@ -734,8 +734,15 @@
   .form__title {
     font-size: 20px;
   }
-  .form__text {
-    font-size: 20px;
+  .form__input {
+    width: 300px;
+    height: 54px;
+  }
+  .form__button {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
   }
 }
 .about {
