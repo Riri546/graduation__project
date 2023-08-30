@@ -512,13 +512,13 @@
     max-width: 220px;
   }
   .content__text {
-    font-size: 20px;
+    font-size: 15px;
   }
   .button__border {
-    width: 230px;
+    width: 180px;
   }
   .button__link {
-    font-size: 20px;
+    font-size: 15px;
   }
   .footer {
     padding-left: calc(50% - 330px);
