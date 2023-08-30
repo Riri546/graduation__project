@@ -809,15 +809,9 @@
 }
 /* Стили для планшета */
 @media (max-width: 1024px) {
-  .about {
+  .contacts {
     padding-left: calc(50% - 330px);
     padding-right: calc(50% - 330px);
-  }
-  .about__title {
-    font-size: 34px;
-  }
-  .about__text {
-    font-size: 20px;
   }
 }
 /* Стили для среднего телефона */
