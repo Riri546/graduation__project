@@ -389,7 +389,7 @@
     padding-right: calc(50% - 480px);
   }
   .headeri #menu {
-    margin-left: 62%;
+    margin-left: 72%;
   }
   .headeri #menu li {
     font-size: 28px;
@@ -445,8 +445,92 @@
   .footer__text {
     font-size: 20px;
   }
+  .footer__link_ico {
+    width: 50px;
+  }
 }
 /* Стили для планшета */
+@media (max-width: 1024px) {
+  .headeri {
+    padding-left: calc(50% - 330px);
+    padding-right: calc(50% - 330px);
+  }
+  .headeri #menu {
+    margin-left: 36%;
+    padding-bottom: 0px;
+  }
+  .headeri #menu.overlay {
+    padding-bottom: 0px;
+  }
+  .headeri #menu li {
+    padding-top: 15px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .headeri #burger-menu span {
+    width: 50px;
+  }
+  .headeri #burger-menu span::after {
+    width: 50px;
+  }
+  .headeri #burger-menu span:before {
+    width: 50px;
+  }
+  .headeri__logo {
+    font-size: 40px;
+  }
+  .slog {
+    padding-left: calc(50% - 330px);
+    padding-right: calc(50% - 330px);
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .slog__title {
+    width: auto;
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+  .slog__text {
+    width: auto;
+    text-align: center;
+    font-size: 22px;
+  }
+  .slog__img_photo {
+    display: none;
+    max-width: 300px;
+  }
+  .content {
+    padding-left: calc(50% - 330px);
+    padding-right: calc(50% - 330px);
+    grid-template-columns: repeat(3, 220px);
+    gap: 15px;
+  }
+  .content__img {
+    max-width: 220px;
+  }
+  .content__text {
+    font-size: 20px;
+  }
+  .button__border {
+    width: 230px;
+  }
+  .button__link {
+    font-size: 20px;
+  }
+  .footer {
+    padding-left: calc(50% - 330px);
+    padding-right: calc(50% - 330px);
+  }
+  .footer__text {
+    font-size: 15px;
+  }
+  .footer__link_ico {
+    width: 40px;
+  }
+}
 /* Стили для среднего телефона */
 .subheader {
   padding-top: 28px;
