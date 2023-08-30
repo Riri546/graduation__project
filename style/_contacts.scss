@@ -39,6 +39,14 @@
     .contacts{
         padding-left: calc(50% - 660px/2);
         padding-right: calc(50% - 660px/2);
+
+        &__title{
+            font-size: 26px;
+        }
+
+        &__text{
+            font-size: 26px;
+        }
     }
 }
 
@@ -48,5 +56,13 @@
     .contacts {
         padding-left: calc(50% - 360px/2);
         padding-right: calc(50% - 360px/2);
+
+        &__title{
+            font-size: 20px;
+        }
+
+        &__text{
+            font-size: 20px;
+        }
     }
 }
