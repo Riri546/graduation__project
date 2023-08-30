@@ -383,18 +383,13 @@
   fill: #F4F2EF;
 }
 
+@media (max-width: 1280px) {
+  .slog__img_photo {
+    max-width: 500px;
+  }
+}
 /* Стили для планшета */
-@media (max-width: 1024px) {
-  .slog__img_photo {
-    max-width: 500px;
-  }
-}
 /* Стили для среднего телефона */
-@media (max-width: 767px) {
-  .slog__img_photo {
-    max-width: 500px;
-  }
-}
 .subheader {
   padding-top: 28px;
   padding-bottom: 28px;

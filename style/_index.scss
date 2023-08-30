@@ -320,17 +320,25 @@
 }
 
 // Nest Hub Max
-//  Для страницы product
-// @media (max-width: 1280px) {
+//  Для страницы index
+@media (max-width: 1280px) {
+    .slog {
+        @extend %center_nest;
 
-// }
+        &__img_photo {
+            max-width: 500px;
+        }
+    }
+
+
+}
 
 /* Стили для планшета */
 //  Для страницы registration
 @media (max-width: 1024px) {
-    .slog__img_photo {
-        max-width: 500px;
-    }
+    // .slog__img_photo {
+    //     max-width: 500px;
+    // }
 
 }
 
@@ -338,7 +346,7 @@
 //  Для страницы registration
 @media (max-width: 767px) {
 
-    .slog__img_photo {
-        max-width: 500px;
-    }
+    // .slog__img_photo {
+    //     max-width: 500px;
+    // }
 }

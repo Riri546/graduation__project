@@ -3,6 +3,11 @@
     padding-right: calc(50% - $widthSite/2);
 }
 
+%center_nest{
+    padding-left: calc(50% - $widthSiteNest/2);
+    padding-right: calc(50% - $widthSiteNest/2);
+}
+
 %flex__space_between {
     display: flex;
     flex-direction: row;
