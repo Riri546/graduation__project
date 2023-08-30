@@ -141,6 +141,22 @@
         color: $colorSite;
     }
 
+    #burger-menu span {
+        width: 60px;
+    }
+
+    // #burger-menu span:hover {
+    //     background-color: $colorSelectSite;
+    // }
+
+    #burger-menu span::after{
+        width: 60px;
+    }
+
+    #burger-menu span:before {
+        width: 60px;
+    }
+
     .menu__bord {
         margin-left: 55px;
         padding-bottom: 17px;
@@ -327,6 +343,14 @@
         padding-left: calc(50% - 960px/2);
         padding-right: calc(50% - 960px/2);
 
+        #menu {
+            margin-left: 62%;
+        }
+
+        #menu li {
+            font-size: 28px;
+        }
+
         &__logo {
             font-size: 46px;
         }
@@ -375,11 +399,11 @@
         }
     }
 
-    .footer{
+    .footer {
         padding-left: calc(50% - 960px/2);
         padding-right: calc(50% - 960px/2);
-        
-        &__text{
+
+        &__text {
             font-size: 20px;
         }
     }
