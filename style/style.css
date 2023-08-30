@@ -815,6 +815,12 @@
   }
 }
 /* Стили для среднего телефона */
+@media (max-width: 767px) {
+  .contacts {
+    padding-left: calc(50% - 180px);
+    padding-right: calc(50% - 180px);
+  }
+}
 * {
   padding: 0;
   margin: 0;
