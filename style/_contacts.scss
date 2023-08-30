@@ -36,15 +36,15 @@
 /* Стили для планшета */
 //  Для страницы index
 @media (max-width: 1024px) {
-    .contacts{
+    .contacts {
         padding-left: calc(50% - 660px/2);
         padding-right: calc(50% - 660px/2);
 
-        &__title{
+        &__title {
             font-size: 26px;
         }
 
-        &__text{
+        &__text {
             font-size: 26px;
         }
     }
@@ -57,11 +57,11 @@
         padding-left: calc(50% - 360px/2);
         padding-right: calc(50% - 360px/2);
 
-        &__title{
+        &__title {
             font-size: 20px;
         }
 
-        &__text{
+        &__text {
             font-size: 20px;
         }
     }

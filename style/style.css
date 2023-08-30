@@ -702,6 +702,38 @@
   background: rgba(195, 176, 157, 0.41);
 }
 
+@media (max-width: 1280px) {
+  .contacts {
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+  }
+}
+/* Стили для планшета */
+@media (max-width: 1024px) {
+  .contacts {
+    padding-left: calc(50% - 330px);
+    padding-right: calc(50% - 330px);
+  }
+  .contacts__title {
+    font-size: 26px;
+  }
+  .contacts__text {
+    font-size: 26px;
+  }
+}
+/* Стили для среднего телефона */
+@media (max-width: 767px) {
+  .contacts {
+    padding-left: calc(50% - 180px);
+    padding-right: calc(50% - 180px);
+  }
+  .contacts__title {
+    font-size: 20px;
+  }
+  .contacts__text {
+    font-size: 20px;
+  }
+}
 .about {
   padding-top: 57px;
   padding-bottom: 57px;
