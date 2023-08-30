@@ -149,8 +149,8 @@
 // Nest Hub Max
 //  Для страницы index
 @media (max-width: 1280px) {
-    .header{
-        &__link{
+    .header {
+        &__link {
             padding: 36px;
             font-size: 46px;
         }
@@ -161,8 +161,8 @@
         padding-right: calc(50% - 960px/2);
         margin: 100px 150px 0px 150px;
 
-        &__logo{
-            
+        &__logo {
+            max-width: 500px;
         }
     }
 }
@@ -170,10 +170,34 @@
 /* Стили для планшета */
 //  Для страницы index
 @media (max-width: 1024px) {
-    .content {
+    .head {
         padding-left: calc(50% - 660px/2);
         padding-right: calc(50% - 660px/2);
+        margin: 10px 100px 0px 100px;
+
+        &__logo {
+            max-width: 400px;
+        }
+
+        &__title {
+            padding-bottom: 38px;
+            font-size: 54px;
+        }
+
+        &__text {
+            padding-top: 38px;
+            font-size: 18px;
+        }
     }
+
+    .header {
+        &__link {
+            padding: 32px;
+            font-size: 42px;
+        }
+    }
+
+
 }
 
 /* Стили для среднего телефона */

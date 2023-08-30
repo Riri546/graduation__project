@@ -119,12 +119,31 @@
     padding-right: calc(50% - 480px);
     margin: 100px 150px 0px 150px;
   }
+  .head__logo {
+    max-width: 500px;
+  }
 }
 /* Стили для планшета */
 @media (max-width: 1024px) {
-  .content {
+  .head {
     padding-left: calc(50% - 330px);
     padding-right: calc(50% - 330px);
+    margin: 10px 100px 0px 100px;
+  }
+  .head__logo {
+    max-width: 400px;
+  }
+  .head__title {
+    padding-bottom: 38px;
+    font-size: 54px;
+  }
+  .head__text {
+    padding-top: 38px;
+    font-size: 18px;
+  }
+  .header__link {
+    padding: 32px;
+    font-size: 42px;
   }
 }
 /* Стили для среднего телефона */
