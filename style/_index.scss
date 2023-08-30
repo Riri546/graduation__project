@@ -141,18 +141,6 @@
         color: $colorSite;
     }
 
-    #burger-menu span {
-        width: 60px;
-    }
-
-    #burger-menu span::after{
-        width: 60px;
-    }
-
-    #burger-menu span:before {
-        width: 60px;
-    }
-
     .menu__bord {
         margin-left: 55px;
         padding-bottom: 17px;
@@ -345,6 +333,18 @@
 
         #menu li {
             font-size: 28px;
+        }
+
+        #burger-menu span {
+            width: 60px;
+        }
+
+        #burger-menu span::after {
+            width: 60px;
+        }
+
+        #burger-menu span:before {
+            width: 60px;
         }
 
         &__logo {

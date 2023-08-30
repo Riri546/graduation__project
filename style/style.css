@@ -232,15 +232,6 @@
 .headeri #menu a:hover {
   color: #C3B09D;
 }
-.headeri #burger-menu span {
-  width: 60px;
-}
-.headeri #burger-menu span::after {
-  width: 60px;
-}
-.headeri #burger-menu span:before {
-  width: 60px;
-}
 .headeri .menu__bord {
   margin-left: 55px;
   padding-bottom: 17px;
@@ -402,6 +393,15 @@
   }
   .headeri #menu li {
     font-size: 28px;
+  }
+  .headeri #burger-menu span {
+    width: 60px;
+  }
+  .headeri #burger-menu span::after {
+    width: 60px;
+  }
+  .headeri #burger-menu span:before {
+    width: 60px;
   }
   .headeri__logo {
     font-size: 46px;
