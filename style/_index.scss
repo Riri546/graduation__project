@@ -346,6 +346,14 @@
             width: 60px;
         }
 
+        #burger-menu.close span{
+            width: 60px;
+        }
+
+        #burger-menu.close span:before {
+            width: 60px;
+        }
+
         &__logo {
             font-size: 46px;
         }
@@ -402,7 +410,7 @@
             font-size: 20px;
         }
 
-        &__link_ico{
+        &__link_ico {
             width: 50px;
         }
     }
@@ -439,6 +447,14 @@
         }
 
         #burger-menu span:before {
+            width: 50px;
+        }
+
+        #burger-menu.close span{
+            width: 50px;
+        }
+
+        #burger-menu.close span:before {
             width: 50px;
         }
 
@@ -507,7 +523,7 @@
             font-size: 15px;
         }
 
-        &__link_ico{
+        &__link_ico {
             width: 40px;
         }
     }
@@ -521,7 +537,7 @@
         padding-right: calc(50% - 360px/2);
 
         #menu {
-            margin-left: 36%;
+            margin-left: 0%;
             padding-bottom: 0px;
         }
 
@@ -537,13 +553,24 @@
 
         #burger-menu span {
             width: 50px;
+            top: 10px;
         }
 
         #burger-menu span::after {
+            top: 15px;
             width: 50px;
         }
 
         #burger-menu span:before {
+            top: -15px;
+            width: 50px;
+        }
+
+        #burger-menu.close span{
+            width: 50px;
+        }
+
+        #burger-menu.close span:before {
             width: 50px;
         }
 
@@ -582,15 +609,16 @@
     .content {
         padding-left: calc(50% - 360px/2);
         padding-right: calc(50% - 360px/2);
-        grid-template-columns: repeat(1, 220px);
+        grid-template-columns: repeat(1, 300px);
+        justify-content: center;
         gap: 15px;
 
         &__img {
-            max-width: 220px;
+            max-width: 300px;
         }
 
         &__text {
-            font-size: 15px;
+            font-size: 22px;
         }
     }
 
@@ -609,11 +637,11 @@
         padding-right: calc(50% - 360px/2);
 
         &__text {
-            font-size: 15px;
+            font-size: 12px;
         }
 
-        &__link_ico{
-            width: 40px;
+        &__link_ico {
+            width: 30px;
         }
     }
 }
