@@ -720,6 +720,10 @@
   .form__input {
     height: 64px;
   }
+  .form__button {
+    width: 220px;
+    font-size: 20px;
+  }
 }
 /* Стили для среднего телефона */
 @media (max-width: 767px) {
