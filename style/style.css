@@ -389,7 +389,7 @@
     padding-right: calc(50% - 480px);
   }
   .headeri #menu {
-    margin-left: 72%;
+    margin-left: 62%;
   }
   .headeri #menu li {
     font-size: 28px;
@@ -739,6 +739,22 @@
   }
 }
 /* Стили для планшета */
+@media (max-width: 1024px) {
+  .subheader {
+    padding-left: calc(50% - 330px);
+    padding-right: calc(50% - 330px);
+  }
+  .subheader__title {
+    font-size: 34px;
+  }
+  .about {
+    padding-left: calc(50% - 330px);
+    padding-right: calc(50% - 330px);
+  }
+  .about__title {
+    font-size: 34px;
+  }
+}
 /* Стили для среднего телефона */
 .contacts {
   padding-top: 100px;

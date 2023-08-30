@@ -41,16 +41,28 @@
         padding-left: calc(50% - 960px/2);
         padding-right: calc(50% - 960px/2);
     }
-
-
 }
 
 /* Стили для планшета */
 //  Для страницы index
 @media (max-width: 1024px) {
-    // padding-left: calc(50% - 660px/2);
-    // padding-right: calc(50% - 660px/2);
+    .subheader {
+    padding-left: calc(50% - 660px/2);
+    padding-right: calc(50% - 660px/2);
 
+    &__title{
+        font-size: 34px;
+    }
+    }
+
+    .about {
+        padding-left: calc(50% - 660px/2);
+        padding-right: calc(50% - 660px/2);
+
+        &__title{
+            font-size: 34px;
+        }
+    }
 }
 
 /* Стили для среднего телефона */
