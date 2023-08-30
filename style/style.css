@@ -462,7 +462,7 @@
     padding-right: calc(50% - 330px);
   }
   .headeri #menu {
-    margin-left: 0%;
+    margin-left: 46%;
     padding-bottom: 0px;
   }
   .headeri #menu.overlay {
@@ -753,6 +753,9 @@
   }
   .about__title {
     font-size: 34px;
+  }
+  .about__text {
+    font-size: 20px;
   }
 }
 /* Стили для среднего телефона */
